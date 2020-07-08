@@ -1,0 +1,153 @@
+.bc {
+  background-color: #313334;
+}
+body {
+  color: #fcf2ff;
+  line-height:35px;
+  font-size: 10px;
+}
+.col-sm-offset-1{
+  margin-left:0%;
+  margin-top:20px;
+}
+.col-sm-3{
+  position:relative;
+  min-height:1px;
+  padding-right:30px;
+  padding-left:10px;
+  width: 350px;
+}
+.b{
+  background-color: #373738;
+}
+a:link {
+  color: #fbfaf3;
+  text-decoration: none;
+}
+/* 未被访问的链接 天蓝色 */
+
+a:visited {
+  color: #fbfaf3;
+  text-decoration: none;
+}
+/* 已被访问过的链接 天蓝色 */
+
+a:hover {
+  color: #91b5fb;
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接 红色 */
+
+a:active {
+  color: #b700ff;
+  text-decoration: none;
+}
+/* 鼠标点中激活链接 紫色 */
+
+.topbanner {
+  background-image: url("../../assets/images/0.jpg");
+  background-repeat: no-repeat;
+  background-size: 1080px;
+  height: 400px;
+  width: 1080px;
+  padding-right: 20px;
+}
+/* 主标题图片 */
+
+.opening1 {
+  font-size:50px;
+  font-weight:bold;
+  text-align: center;
+  color: #f8e269
+}
+/* 主标题字体1 */
+
+.opening2 {
+  font-size:20px;
+  font-weight:bold;
+  text-align: center;
+  color: #f8e269;
+}
+
+/* 主标题字体2 */
+.newsv {
+  padding-left: 20px;
+  color: #333;
+}
+
+ /* 视频样式 */
+.fl{
+  float:left;
+  display:inline;
+}
+.list-title{
+  margin-right:-15px;
+  height:16px;
+  padding:8px 0;
+}
+li{
+  list-style:none;
+  padding: 5px;
+  overflow: hidden;
+}
+.line {
+  width: 1px;
+  height: 10px;
+  background-color: #ddd;
+  padding:0px;
+  margin-top: 18px;
+}
+.scr-tit {
+  border-bottom:1px solid #eee;
+  padding-bottom:14px;
+  overflow:hidden;
+}
+.title{
+  font-size: 30px;
+  color: white;
+}
+.cf {
+  content:"";
+  display:table;
+  clear:both;
+}
+.scr-vds{
+  width:820px;
+  margin:4px 0 0 -5px;
+  overflow:hidden;
+}
+.ft12{
+  font-size:12px;
+}
+.txt{
+  position:absolute;
+  bottom:0;
+  height:20px;
+  color:#fff;
+  line-height:19px;
+  background:rgba(0,0,0,.6);
+  padding-left:5px;
+  width:185px;
+  left:0;
+  cursor:pointer;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99000000', endColorstr='#99000000');
+}
+.vds-img{
+  position:relative;
+}
+.time{
+  color:#999;
+}
+.count{
+  padding-left:160px;
+}
+.hrr{
+  border-bottom:2px solid #77d1fb;
+  margin: 10px 0;
+}
+.sv {
+  margin-top:20px;
+}
+
+
+

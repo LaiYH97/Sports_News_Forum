@@ -1,0 +1,121 @@
+/* 总体样式 */
+* {
+  margin:0;
+  padding:0
+}
+.bc {
+  background-color: #313334;
+  height: 1100px;
+}
+.name {
+  font-size: 10px;
+  color: #69696a;;
+}
+.title {
+  font-size: 17px;
+  color: white;
+  margin-top: 5px;
+}
+.count {
+  font-size: 8px;
+  color: #69696a;
+}
+li {
+  list-style: none;
+}
+.zi{
+  color: white;
+  line-height: 35px;
+}
+.kuang {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #212122;
+  height: 98px;
+}
+.line {
+  line-height: 30px;
+}
+.ge {
+  margin-top: 5px;
+}
+.tiao {
+  margin-left: 30px;
+}
+.f {
+  margin-left: 1000px;
+}
+
+/* 搜索栏 */
+.lan {
+  margin-left: 30px;
+}
+.b {
+  background-color: #282828;
+  height: 78px;
+}
+.fr {
+  float: right;
+  margin-right:30px;
+}
+input{
+  height: 25px;
+  color: black;
+}
+
+/* 按钮 */
+.bu {
+  background-color: #4c4b4e;
+  border: none;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  color: white;
+  margin: 2px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.bu:hover {
+  color: #6e6b68;
+  background: #4c4b4e;
+  text-decoration: none;
+}
+.weizhi {
+  margin:2px 30px 0 0;
+}
+
+/* 图片 */
+.image1{
+  width: 25px;
+  height: 25px;
+}
+.image2 {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+/* 链接 */
+/* 未被访问的链接 白色 */
+a:link {
+  color: #fbfaf3;
+  text-decoration: none;
+}
+/* 已被访问过的链接 白色 */
+a:visited {
+  color: #fbfaf3;
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接 天色 */
+a:hover {
+  color: #91b5fb;
+  text-decoration: none;
+}
+/* 鼠标点中激活链接 紫色 */
+a:active {
+  color: #b700ff;
+  text-decoration: none;
+}

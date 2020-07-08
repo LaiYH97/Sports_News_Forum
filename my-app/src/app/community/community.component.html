@@ -1,0 +1,31 @@
+<div class="bc">
+  <!-- 搜索栏 -->
+  <div class="b">
+  <div class="lan">
+  <h1 class="zi">Personal Contact</h1>
+  <form>
+    <label class="zi">Filter Name</label>
+    <!-- 发布按钮 -->
+    <a [routerLink]="['']"> <button class="fr bu weizhi" (click)="showAlert()">Release</button></a>
+    <span class="zi fr">搜索&nbsp;&nbsp;&nbsp;<input type="text" [(ngModel)]="term" name="first"></span>
+  </form>
+  </div>
+  </div>
+
+  <!-- 列表内容 -->
+  <ul>
+     <li class="ge" *ngFor="let person of people | filter:term">
+       <div class="kuang line">
+         <div class="name tiao"><img class="image1" src="{{person.src}}">&nbsp;&nbsp;&nbsp;{{person.name}}</div>
+         <div class="title tiao"><a routerLink="['']">{{person.title}}</a></div>
+         <div class="count tiao f"><a routerLink="['']"> <img class="image2" src="../../assets/images/logo6.jpg"></a>&nbsp;&nbsp;{{person.count}}</div>
+       </div>
+     </li>
+  </ul>
+
+  <!-- 分页 -->
+  <app-page></app-page>
+</div>
+
+
+
